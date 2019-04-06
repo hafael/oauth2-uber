@@ -1,5 +1,5 @@
 {
-    "name": "stevenmaguire/oauth2-uber",
+    "name": "hafael/oauth2-uber",
     "description": "Uber OAuth 2.0 Client Provider for The PHP League OAuth2-Client (clone of stevenmaguire/oauth2-uber) using uber v2 routes",
     "license": "MIT",
     "authors": [
