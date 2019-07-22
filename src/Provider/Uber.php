@@ -95,7 +95,7 @@ class Uber extends AbstractProvider
 
         if (!in_array($response->getStatusCode(), $acceptableStatuses)) {
             throw new IdentityProviderException(
-                $data['message'] ?: $response->getReasonPhrase(),
+                isset($data['message']) ?: $response->getReasonPhrase(),
                 $response->getStatusCode(),
                 $response
             );
